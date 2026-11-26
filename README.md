@@ -77,3 +77,25 @@ Expense added successfully!
 ---
 
 Developed as part of the EdVyro C++ Programming Internship.
+
+## How to Compile and Run
+
+1. Install GCC (g++) compiler.
+2. Open the project folder in VS Code.
+3. Open the terminal.
+4. Compile using:
+
+   g++ main.cpp -o expense_tracker
+
+5. Run the program:
+
+   .\expense_tracker.exe
+
+## Sample Execution
+
+The application supports:
+- Adding expenses
+- Listing expenses
+- Calculating category-wise totals
+- Calculating overall expenses
+- Validating invalid amounts and menu choices
